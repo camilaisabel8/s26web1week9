@@ -1,0 +1,84 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************************************************
+        MOBILE STYLES
+****************************************************/
+
+.container{
+    padding:0 0.5em;
+    /* you never want anything right up against the edge of the screen, so a small
+    amount of padding on the left and right helps leave a bit of whitespace */
+}
+
+h1{
+    font-size:30px;
+}
+
+/* style the navigation links so they are more like buttons, and easier to click
+with your finger */
+nav ul a{
+    background-color:rgb(142, 210, 255);
+    display:block; /* make them block elements so they can have width and height */
+    width:100%;
+    height:2em; /* 1 em is the size of the element's font size: 2em = 16px x 2 = 32px */
+    text-align:center;
+    border-top:1px solid rgb(83, 143, 183);
+    border-bottom:1px solid rgb(83, 143, 183);
+    text-decoration:none;
+    color:white;
+}
+
+nav ul a:active{
+    background-color:rgb(133, 168, 192);
+}
+
+img{
+    max-width:100%;
+}
