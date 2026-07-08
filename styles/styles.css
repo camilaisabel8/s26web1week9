@@ -82,3 +82,20 @@ nav ul a:active{
 img{
     max-width:100%;
 }
+/****************************************************
+        LARGER SCREENS 
+        MEDIA QUERY
+****************************************************/
+@media screen and (min-width: 600px){
+   
+
+}
+@media screen and (min-width: 800px){
+    body{background-color:rgb(85, 167, 85);}
+        .container{
+            width:100%;
+            max-width:800px; /* this will keep the container from getting too wide on large screens */
+            margin:0 auto; /* this will center the container on the page */
+            background-color:rgb(255, 255, 255);
+        }
+}
